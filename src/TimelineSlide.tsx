@@ -11,7 +11,7 @@ const style = {
 export function TimelineSlide(_: NodeProps) {
   return (
     <article className="slide timeline-slide" style={style}>
-      {/* The slide's title is removed to create more space for the visual */}
+      <h2>A Timeline of Technological Progression</h2>
       <div className="timeline-container">
         <div className="year-label year-label-start">1700</div>
         

@@ -15,7 +15,7 @@ const cardImages = {
   speechVision: 'https://images.pexels.com/photos/5474028/pexels-photo-5474028.jpeg', // A more suitable, stable link
   perception: 'https://qualitytraining.be/content/uploads/2024/09/comment-lia-modifie-la-perception-des-competences-humaines.jpg',
   generativeAI: 'https://images.pexels.com/photos/16629368/pexels-photo-16629368.jpeg',
-  agenticAI: 'https://www.computerworld.com/wp-content/uploads/2025/08/3843138-0-96279100-1755537507-agentic_AI_2.jpg?quality=50&strip=all',
+  agenticAI: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWdlbnRpYyUyMGFpfGVufDB8fDB8fHww',
 };
 
 const decadesData = [

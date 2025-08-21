@@ -16,6 +16,9 @@ export function AgenticAiIntroSlide(_: NodeProps) {
 
   return (
     <article ref={ref} className={`slide agentic-intro-slide ${inView ? 'is-in-view' : ''}`} style={style}>
+      <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }}>
+        Rise of Agentic AI
+      </motion.h2>
       <motion.p 
         className="agentic-subtitle"
         initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }}
