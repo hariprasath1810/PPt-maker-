@@ -25,12 +25,13 @@ const slide15 = { id: "15", type: 'agenticIntro', data: { left: "14", right: "16
 const slide16 = { id: "16", type: 'agenticLoop', data: { left: "15", right: "17", source: "" } };
 const slide17 = { id: "17", type: 'agenticTools', data: { left: "16", right: "18", source: "" } };
 const slide18 = { id: "18", type: 'agenticSystems', data: { left: "17", right: "19", source: "" } };
-const slide19 = { id: "19", type: 'agenticFuture', data: { left: "18", source: "" } };
+const slide19 = { id: "19", type: 'agenticFuture', data: { left: "18", right: "20", source: "" } };
+const slide20 = { id: "20", type: 'thankyou', data: { left: "19", source: "" } };
 
 const allSlides = [
   slide01, slide02, slide03, slide04, slide05, slide06,
   slide07, slide08, slide09, slide10, slide11, slide12, slide13,
-  slide14, slide15, slide16, slide17, slide18, slide19
+  slide14, slide15, slide16, slide17, slide18, slide19, slide20
 ];
 
 export const slides = Object.fromEntries(

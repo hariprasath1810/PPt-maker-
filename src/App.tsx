@@ -24,6 +24,7 @@ import { AgenticLoopSlide } from "./AgenticLoopSlide";
 import { AgenticToolsSlide } from "./AgenticToolsSlide";
 import { AgenticSystemsSlide } from "./AgenticSystemsSlide";
 import { AgenticFutureSlide } from "./AgenticFutureSlide";
+import { ThankYouSlide } from "./ThankYouSlide";
 
 const nodeTypes = {
   slide: Slide,
@@ -46,6 +47,7 @@ const nodeTypes = {
   agenticTools: AgenticToolsSlide,
   agenticSystems: AgenticSystemsSlide,
   agenticFuture: AgenticFutureSlide,
+  thankyou: ThankYouSlide,
 };
 
 const initialSlide = "01";
